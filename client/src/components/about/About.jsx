@@ -27,23 +27,29 @@ const About = () => {
         <Box>
             <Banner/>
             <Wrapper>
-                <Typography variant="h3">Code for Interview</Typography>
-                <Text variant="h5">I'm a Software Engineer based in India. 
-                    I've built websites, desktop applications and corporate software.<br />
-                    If you are interested, you can view some of my favorite projects here
+                <Typography variant="h3">Welcome to Blogify</Typography>
+                <Text variant="h5">Welcome to our blog website, where you can share your thoughts, insights, and stories with the world! We believe that everyone has a unique perspective to offer, and we are excited to provide a platform for you to do just that. Our blog website is designed to be user-friendly and accessible to anyone who wants to write. Whether you're an experienced blogger or just starting out, we have everything you need to create a high-quality post that will engage and inform your readers.
+                <br />
+                {/* User-friendly interface for seamless navigation */}
+            
                     <Box component="span" style={{ marginLeft: 5 }}>
-                        <Link href="https://github.com/kunaltyagi9" color="inherit" target="_blank"><GitHub /></Link>
+                        {/* <Link href="" color="inherit" target="_blank"><GitHub /></Link> */}
                     </Box>
                 </Text>
+                <Typography variant="h4">Top Features</Typography>
+                <Text variant="h5">🔹User-friendly interface for seamless navigation</Text>
+                <Text variant="h5">🔹authentication  for secure access</Text>
+                <Text variant="h5">🔹  CRUD (Create, Read, Update, Delete) operations for blog posts</Text>
+                <Text variant="h5">🔹 Responsive design for optimal performance on all devices</Text>
                 <Text variant="h5">
                     Need something built or simply want to have chat? Reach out to me on
                     <Box component="span" style={{ marginLeft: 5 }}>
-                        <Link href="https://www.instagram.com/codeforinterview/" color="inherit" target="_blank">
+                        <Link href="" color="inherit" target="_blank">
                             <Instagram />
                         </Link>
                     </Box>  
                         or send me an Email 
-                        <Link href="mailto:codeforinterview@gmail.com?Subject=This is a subject" target="_blank" color="inherit">
+                        <Link href="" target="_blank" color="inherit">
                             <Email />
                         </Link>.
                 </Text>

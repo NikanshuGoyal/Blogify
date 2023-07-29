@@ -8,7 +8,7 @@ const Container = styled(Box)`
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 350px;
+    height: 500px;
     & > img, & > p {
         padding: 0 5px 5px 5px;
     }
@@ -18,7 +18,7 @@ const Image = styled('img')({
     width: '100%',
     objectFit: 'cover',
     borderRadius: '10px 10px 0 0',
-    height: 150
+    height: 250
 });
 
 const Text = styled(Typography)`
@@ -47,9 +47,9 @@ const Post = ({ post }) => {
         <Container>
             <Image src={url} alt="post" />
             <Text>{post.categories}</Text>
-            <Heading>{addEllipsis(post.title, 20)}</Heading>
+            <Heading>{addEllipsis(post.title, 100)}</Heading>
             <Text>Author: {post.username}</Text>
-            <Details>{addEllipsis(post.description, 100)}</Details>
+            <Details>{addEllipsis(post.description, 500)}</Details>
         </Container>
     )
 }
