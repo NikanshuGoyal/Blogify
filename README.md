@@ -33,12 +33,12 @@
 
 - [x] Home Page
 
-<a href="#"> ![step1](images/blogall.png) </a>
+<a href="#"> ![step1](images/blog_sports.png) </a>
 
 
 - [x] Selected Category Page
 
-<a href="#"> ![step2](images/blog_sports.png) </a>
+<a href="#"> ![step2](images/blogall.png) </a>
 
 - [x] About Page
 
