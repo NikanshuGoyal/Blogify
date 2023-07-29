@@ -3,7 +3,6 @@ import mongoose from 'mongoose';
 
 const url = 'http://localhost:8000';
 
-
 let gfs, gridfsBucket;
 const conn = mongoose.connection;
 conn.once('open', () => {
