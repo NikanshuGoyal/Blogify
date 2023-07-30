@@ -8,7 +8,7 @@
 - Made with JavaScript, HTML5 and CSS3,React,NodeJS, Express JS, MongoDB.
 - Live Demo:👇
 
-- [x] [txt-compresser.app/]()
+https://blogify-webapp.netlify.app/account
 
 
 
